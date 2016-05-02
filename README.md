@@ -1,14 +1,9 @@
 # py_sdvb
 
+## Description
+
 Vocabulary builder by generating word lists from stardict dictionaries.  Allow
 regex search.  Written in python.
-
-
-## Prerequisites
-
-This package is based on the package `PyStarDict` (https://github.com/lig/pystardict).
-
-Programs are tested for python3 on Mac OS X.
 
 
 ## Features
@@ -48,3 +43,8 @@ This is an interactive command line dictionary tool, basically an analog of
 ./sdcv.py
 ```
 
+## Prerequisites
+
+This package is based on the package `PyStarDict` (https://github.com/lig/pystardict).
+
+Programs are tested for python3 on Mac OS X.
