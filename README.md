@@ -43,8 +43,9 @@ This is an interactive command line dictionary tool, basically an analog of
 ./sdcv.py
 ```
 
+
 ## Prerequisites
 
-This package is based on the package `PyStarDict` (https://github.com/lig/pystardict).
+This package is based on `PyStarDict` (https://github.com/lig/pystardict).
 
 Programs are tested for python3 on Mac OS X.
