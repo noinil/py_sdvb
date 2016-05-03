@@ -2,6 +2,7 @@
 
 from pystardict import Dictionary
 from pathlib import Path
+import re
 
 def trans_words_list():
     # ---------- loading all the dictionaries ----------
@@ -27,6 +28,9 @@ def trans_words_list():
 
     # ---------- output string format ----------
     indexword_out_str = '[0;32;1m{0}[0m'
+    pos_out_str = '[0;37;1m{0}[0m'
+    phon_out_str = '[0;30;1m{0}[0m'
+    misc_out_str = '[0;36;1m{0}[0m'
 
     print('[0;30;1m==========================================================================================[0m')
     while True:
@@ -39,9 +43,22 @@ def trans_words_list():
             for dict_word in dict_key_list:
                 if request == dict_word:
                     translation = d[dict_word]
-                    print('------------------------------')
+                    print('[0;30;1m--------------------------------------------------[0m')
                     print(indexword_out_str.format(dict_word))
-                    print(translation)
+                    # print(translation)
+                    for transline in translation.split('\n'):
+                        pos_reg = re.compile('(a|v|n|adj|adv|vt|vi)\.')
+                        phon_reg = re.compile('\*?\[.*\]')
+                        if re.match(pos_reg, transline):
+                            print(pos_out_str.format(transline))
+                        elif re.match(phon_reg, transline):
+                            print(phon_out_str.format(transline))
+                        elif transline.startswith('词形') or transline.startswith('例句') or transline.startswith('相关'):
+                            print('[0;30;1m--------------------[0m')
+                            print(misc_out_str.format(transline))
+                        else:
+                            print(transline)
+
         print('[0;30;1m==========================================================================================[0m')
 
 if __name__ == '__main__':
