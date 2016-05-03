@@ -3,12 +3,14 @@
 ## Description
 
 Vocabulary builder by generating word lists from stardict dictionaries.  Allow
-regex search.  Written in python.
+**regular expression** search.  Written in python.
 
 
 ## Features
 
 ### Regular expression support
+
+See some *regex* search examples below:
 
 ![Regex Support.](/images/regex.png)
 

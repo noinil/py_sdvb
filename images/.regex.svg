@@ -10,14 +10,14 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="319.78156mm"
-   height="245.30911mm"
-   viewBox="0 0 1133.0843 869.20551"
+   width="321.78152mm"
+   height="249.38995mm"
+   viewBox="0 0 1140.1708 883.66518"
    id="svg6397"
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="regex.svg"
-   inkscape:export-filename="/Users/noinil/Workspace/regex.png"
+   inkscape:export-filename="/Users/noinil/Workspace/py_sdvb/images/regex.png"
    inkscape:export-xdpi="75"
    inkscape:export-ydpi="75">
   <defs
@@ -96,19 +96,19 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="640.807"
-     inkscape:cy="504.91575"
+     inkscape:cx="421.46504"
+     inkscape:cy="515.54563"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
+     fit-margin-top="5"
+     fit-margin-left="2"
      fit-margin-right="0"
-     fit-margin-bottom="0"
+     fit-margin-bottom="3"
      inkscape:window-width="1920"
      inkscape:window-height="1119"
      inkscape:window-x="9"
-     inkscape:window-y="3"
+     inkscape:window-y="26"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata6402">
@@ -126,7 +126,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-115.10683,-130.30972)">
+     transform="translate(-108.02022,-126.47996)">
     <image
        width="375"
        height="842.5"
@@ -179,7 +179,7 @@
        transform="translate(-40.392631,-21.277969)" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:50px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:30.00000191px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="115.27773"
        y="165.12418"
        id="text7199"
@@ -188,10 +188,10 @@
          id="tspan7201"
          x="115.27773"
          y="165.12418"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:#aa0000">palindrome</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:#aa0000">palindrome</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:50px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:30.00000191px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="475.4697"
        y="165.02652"
        id="text7199-4"
@@ -200,10 +200,10 @@
          id="tspan7201-5"
          x="475.4697"
          y="165.02652"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:#aa0000">longest words</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:#aa0000">longest words</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:50px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:30.00000191px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="848.49146"
        y="165.02652"
        id="text7199-4-3"
@@ -212,30 +212,30 @@
          id="tspan7201-5-3"
          x="848.49146"
          y="165.02652"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:#aa0000">simple regex</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:#aa0000">simple regex</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:50px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1013.694"
-       y="824.32513"
+       style="font-style:normal;font-weight:normal;font-size:30.00000191px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1107.4928"
+       y="808.32513"
        id="text7199-4-1"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan7201-5-1"
-         x="1013.694"
-         y="824.32513"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:#aa0000">six a/e/i/o/u</tspan></text>
+         x="1107.4928"
+         y="808.32513"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:#aa0000">six a/e/i/o/u</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:50px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="548.36169"
-       y="928.61084"
+       style="font-style:normal;font-weight:normal;font-size:30.00000191px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="659.3089"
+       y="912.61084"
        id="text7199-4-4"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan7201-5-7"
-         x="548.36169"
-         y="928.61084"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:#aa0000">Chinese chars</tspan></text>
+         x="659.3089"
+         y="912.61084"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:#aa0000">Chinese chars</tspan></text>
   </g>
 </svg>
