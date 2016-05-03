@@ -8,7 +8,9 @@ regex search.  Written in python.
 
 ## Features
 
-### Regular expression
+### Regular expression support
+
+![Regex Support.](/images/regex.png)
 
 ### Colored output
 
