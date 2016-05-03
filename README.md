@@ -12,10 +12,13 @@ Vocabulary builder by generating word lists from stardict dictionaries.  Allow
 
 See some *regex* search examples below:
 
-![Regex Support.](/images/regex.png)
+![Regex support.](/images/regex.png)
 
 ### Colored output
 
+Keywords are highlighted.
+
+![Colored output.](/images/coloroutput.png)
 
 ## Usage
 
