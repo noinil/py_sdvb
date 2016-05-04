@@ -22,16 +22,6 @@ setup(
     license='GPL3',
 
     classifiers=[
-        #   3 - Alpha
-        #   4 - Beta
-        #   5 - Production/Stable
-        'Development Status :: 4 - Beta',
-
-        'Intended Audience :: Foreign Language Learner; Chinese',
-        'Topic :: Vocabulary Builder :: Dictionary Tools',
-
-        'License :: GPL3 License',
-
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.5',
     ],
