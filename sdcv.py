@@ -54,7 +54,6 @@ def trans_words_list():
                     print('[0;30;1m--------------------------------------------------[0m')
                     print(dict_name_out_str.format(dict_book_names[i]))
                     print(indexword_out_str.format(dict_word))
-                    # print(translation)
                     for transline in translation.split('\n'):
                         pos_reg = re.compile('(a|v|n|ad|adj|adv|vt|vi)\.')
                         pos_cn_reg = re.compile('【.*】')
