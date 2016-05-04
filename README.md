@@ -18,7 +18,7 @@ See some *regex* search examples below:
 
 Keywords are highlighted.
 
-![Colored output.](/images/coloroutput.png)
+<img src="/images/coloroutput.png"  width="800">
 
 ## Usage
 
