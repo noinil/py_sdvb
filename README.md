@@ -2,8 +2,9 @@
 
 ## Description
 
-Vocabulary builder by generating word lists from stardict dictionaries.  Allow
-**regular expression** search.  Written in python.
+- Vocabulary builder by generating word lists from stardict dictionaries.  Allow
+  **regular expression** search.  Written in python.
+- Command-line dictionary searching tool with colored output.
 
 
 ## Features
