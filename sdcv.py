@@ -4,7 +4,7 @@ from pystardict import Dictionary
 from pathlib import Path
 import re
 
-def trans_words_list():
+def translate_word():
     # ---------- loading all the dictionaries ----------
     dictionaries = []
     dict_book_names = []
@@ -84,5 +84,5 @@ def trans_words_list():
         print('[0;30;1m==========================================================================================[0m \n')
 
 if __name__ == '__main__':
-    trans_words_list()
+    translate_word()
     

@@ -72,8 +72,9 @@ This is an interactive command line dictionary tool, basically an analog of
 
 ### Add to `$PATH`
 
+If not using pip to install, probably you need these commands: 
 ```bash
-ln -s /path/to/py_sdvb/sdvb.py /usr/local/bin/sdvb
-ln -s /path/to/py_sdvb/sdcv.py /usr/local/bin/sdcv
+ln -s /path/to/py_sdvb/sdvb.py /usr/local/bin/pysdvb
+ln -s /path/to/py_sdvb/sdcv.py /usr/local/bin/pysdcv
 ```
 

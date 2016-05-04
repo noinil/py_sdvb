@@ -5,7 +5,7 @@ from pystardict import Dictionary
 from pathlib import Path
 import sys
 
-def trans_words_list(sel_dict):
+def translate_words_list(sel_dict):
     # ---------- loading all the dictionaries ----------
     dictionaries = []
     dict_book_names = []
@@ -111,5 +111,5 @@ if __name__ == '__main__':
         elif sel_dict_opt == '-s':
             sdo = 1
 
-    trans_words_list(sdo)
+    translate_words_list(sdo)
     
