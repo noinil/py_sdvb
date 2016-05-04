@@ -44,8 +44,8 @@ setup(
 
     entry_points={
         'console_scripts': [
-            'pysdcv=sdcv:translate_word',
-            'pysdvb=sdvb:main',
+            'pysdcv=pysdvb.sdcv:translate_word',
+            'pysdvb=pysdvb.sdvb:select_dictionary',
         ],
     },
 )
