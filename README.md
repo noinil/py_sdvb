@@ -42,11 +42,17 @@ dictionaries stored there.
 This is the primary program to help building your vocabulary, by generating a
 list of words together with their translations.
 
-Run this:
+Run `sdvb.py` like this:
 ```bash
-./sdvb.py
+./sdvb.py [-s] [-h]
 ```
-You will be prompted with `REGEX:`, which askes you to input **regular
+
+Use the `[-h]` option for help.
+
+The `-s` option provides a mode to choose dictionary.  Otherwise, all the
+dictionaries are used.
+
+You will then be prompted with `REGEX:`, which askes you to input **regular
 expressions** for search.
 
 
