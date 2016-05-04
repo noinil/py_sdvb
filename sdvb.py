@@ -98,8 +98,7 @@ def translate_words_list(sel_dict):
                     else:
                         print(' ', transline)
 
-
-if __name__ == '__main__':
+def select_dictionary():
     sdo = 0
     if len(sys.argv) > 1:
         sel_dict_opt = sys.argv[1]
@@ -113,3 +112,6 @@ if __name__ == '__main__':
 
     translate_words_list(sdo)
     
+
+if __name__ == '__main__':
+    select_dictionary()
