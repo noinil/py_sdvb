@@ -7,6 +7,7 @@ setup(
     description='Dictionary interface of stardict, support regular expression (regex) search and colored output.',
 
     url='https://github.com/noinil/py_sdvb',
+    download_url = 'https://github.com/noinil/py_sdvb/tarball/2.0',
 
     author='Cheng Tan',
     author_email='noinil@gmail.com',
