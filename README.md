@@ -21,7 +21,11 @@ Keywords are highlighted.
 
 <img src="/images/coloroutput.png"  width="800">
 
+### Jupyter/Ipython notebook (Experimental)
 
+Interactively searching/translating in Jupyter notebooks.
+
+<img src="/images/ipynb_sdcv.gif"  width="400">
 
 ## Prerequisites
 
