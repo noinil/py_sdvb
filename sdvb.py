@@ -40,8 +40,15 @@ def trans_words_list(sel_dict):
         for i_dict, dname in enumerate(dict_book_names):
             print(dicsel_str.format(i_dict, dname))
         i_chosen = int(input(' Input a number: '))
-        d_tmp = dictionaries[i_chosen]
-        dictionaries = [d_tmp]
+        try:
+            d_tmp = dictionaries[i_chosen]
+            dictionaries = [d_tmp]
+            name_tmp = dict_book_names[i_chosen]
+            dict_book_names = [name_tmp]
+        except Exception:
+            print(" Dictionary selection error.")
+            print(" Trying to use all the dictionaries!")
+        print("------------------------------")
     
     # ---------- Get a regex ----------
     regex = input('REGEX: ')
@@ -54,6 +61,14 @@ def trans_words_list(sel_dict):
     misc_out_str = ' [0;31;2m{0}[0m'
     dict_name_out_str = ' [1;34;1m{0}[0m'
 
+    # regular expressions
+    pos_reg = re.compile('(a|v|n|ad|adj|adv|vt|vi)\.')
+    pos_cn_reg = re.compile('【.*】')
+    phon_reg = re.compile('\*?\[.*\]')
+    pinyin_bug = re.compile('([a-z]\?.*){2,}')
+    jap_bug = re.compile('\$')
+
+    # searching loop...
     for i, d in enumerate(dictionaries):
         search_reg = re.compile(regex)
         dict_key_list = d.keys()
@@ -65,11 +80,6 @@ def trans_words_list(sel_dict):
                 print(dict_name_out_str.format(dict_book_names[i]))
                 print(indexword_out_str.format(dict_word))
                 for transline in translation.split('\n'):
-                    pos_reg = re.compile('(a|v|n|ad|adj|adv|vt|vi)\.')
-                    pos_cn_reg = re.compile('【.*】')
-                    phon_reg = re.compile('\*?\[.*\]')
-                    pinyin_bug = re.compile('([a-z]\?.*){2,}')
-                    jap_bug = re.compile('\$')
                     m_pos = re.match(pos_reg, transline)
                     m_pos_cn = re.search(pos_cn_reg, transline)
                     if m_pos:

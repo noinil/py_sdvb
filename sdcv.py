@@ -40,6 +40,14 @@ def trans_words_list():
     misc_out_str = ' [0;31;2m{0}[0m'
     dict_name_out_str = ' [1;34;1m{0}[0m'
 
+    # regular expressions
+    pos_reg = re.compile('(a|v|n|ad|adj|adv|vt|vi)\.')
+    pos_cn_reg = re.compile('【.*】')
+    phon_reg = re.compile('\*?\[.*\]')
+    pinyin_bug = re.compile('([a-z]\?.*){2,}')
+    jap_bug = re.compile('\$')
+
+    # searching loop...
     print('[0;30;1m==========================================================================================[0m')
     while True:
         try:
@@ -55,11 +63,6 @@ def trans_words_list():
                     print(dict_name_out_str.format(dict_book_names[i]))
                     print(indexword_out_str.format(dict_word))
                     for transline in translation.split('\n'):
-                        pos_reg = re.compile('(a|v|n|ad|adj|adv|vt|vi)\.')
-                        pos_cn_reg = re.compile('【.*】')
-                        phon_reg = re.compile('\*?\[.*\]')
-                        pinyin_bug = re.compile('([a-z]\?.*){2,}')
-                        jap_bug = re.compile('\$')
                         m_pos = re.match(pos_reg, transline)
                         m_pos_cn = re.search(pos_cn_reg, transline)
                         if m_pos:
