@@ -27,7 +27,16 @@ Interactively searching/translating in Jupyter notebooks.
 
 <img src="/images/ipynb_sdcv.gif"  width="600">
 
-## Prerequisites
+
+## Installation
+
+Py-sdvb is now available on PyPI.  Use `pip` (python3 version) to install:
+
+```bash
+pip3 install py-sdvb
+```
+
+### Prerequisites for manual installation
 
 This package is based on `PyStarDict` (https://github.com/lig/pystardict).
 
@@ -42,14 +51,14 @@ Put all the dictionaries in the directory `~/.stardict/`.  If you have been
 using tools like *stardict* or *sdcv*, you probably have already had the
 dictionaries stored there.
 
-### sdvb.py
+### pysdvb
 
 This is the primary program to help building your vocabulary, by generating a
 list of words together with their translations.
 
-Run `sdvb.py` like this:
+Run `pysdvb` like this:
 ```bash
-./sdvb.py [-s] [-h]
+pysdvb [-s] [-h]
 ```
 
 Use the `[-h]` option for help.
@@ -61,20 +70,22 @@ You will then be prompted with `REGEX:`, which askes you to input **regular
 expressions** for search.
 
 
-### sdcv.py
+
+### pysdcv
 
 This is an interactive command line dictionary tool, basically an analog of
 *sdcv*.
 
 ```bash
-./sdcv.py
+pysdcv
 ```
 
-### Add to `$PATH`
+### Manually add to `$PATH`
 
-If not using pip to install, probably you need these commands: 
+If not using `pip` to install, probably you need these commands: 
+
 ```bash
-ln -s /path/to/py_sdvb/sdvb.py /usr/local/bin/pysdvb
-ln -s /path/to/py_sdvb/sdcv.py /usr/local/bin/pysdcv
+ln -s /path/to/py_sdvb/pysdvb/sdvb.py /usr/local/bin/pysdvb
+ln -s /path/to/py_sdvb/pysdvb/sdcv.py /usr/local/bin/pysdcv
 ```
 
