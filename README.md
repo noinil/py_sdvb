@@ -18,7 +18,7 @@ See some *regex* search examples below:
 
 Keywords are highlighted.
 
-<img src="/images/coloroutput.png" alt="Colored output." style="width: 500px;"/>
+<img src="/images/coloroutput.png" alt="Colored output." style="width: 300px;"/>
 
 ## Usage
 
