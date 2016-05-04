@@ -25,7 +25,7 @@ Keywords are highlighted.
 
 Interactively searching/translating in Jupyter notebooks.
 
-<img src="/images/ipynb_sdcv.gif"  width="400">
+<img src="/images/ipynb_sdcv.gif"  width="600">
 
 ## Prerequisites
 
