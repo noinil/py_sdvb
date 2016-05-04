@@ -9,7 +9,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='py-sdvb',
-    version='1.5',
+    version='1.6',
 
     description='Dictionary interface of stardict, support regular expression (regex) search and colored output.',
     long_description=long_description,
