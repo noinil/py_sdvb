@@ -6,6 +6,22 @@ Vocabulary builder by generating word lists from stardict dictionaries.  Allow
 **regular expression** search.  Written in python.
 
 
+## Features
+
+### Regular expression support
+
+See some *regex* search examples below:
+
+![Regex support.](/images/regex.png)
+
+### Colored output
+
+Keywords are highlighted.
+
+<img src="/images/coloroutput.png"  width="800">
+
+
+
 ## Prerequisites
 
 This package is based on `PyStarDict` (https://github.com/lig/pystardict).
@@ -21,7 +37,7 @@ Put all the dictionaries in the directory `~/.stardict/`.  If you have been
 using tools like *stardict* or *sdcv*, you probably have already had the
 dictionaries stored there.
 
-### `sdvb.py`
+### sdvb.py
 
 This is the primary program to help building your vocabulary, by generating a
 list of words together with their translations.
@@ -34,7 +50,7 @@ You will be prompted with `REGEX:`, which askes you to input **regular
 expressions** for search.
 
 
-### `sdcv.py`
+### sdcv.py
 
 This is an interactive command line dictionary tool, basically an analog of
 *sdcv*.
@@ -49,20 +65,4 @@ This is an interactive command line dictionary tool, basically an analog of
 ln -s /path/to/py_sdvb/sdvb.py /usr/local/bin/sdvb
 ln -s /path/to/py_sdvb/sdcv.py /usr/local/bin/sdcv
 ```
-
-
-## Features
-
-### Regular expression support
-
-See some *regex* search examples below:
-
-![Regex support.](/images/regex.png)
-
-### Colored output
-
-Keywords are highlighted.
-
-<img src="/images/coloroutput.png"  width="800">
-
 
