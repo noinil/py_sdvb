@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='py-sdvb',
-    version='1.6.3',
+    version='2.0',
 
     description='Dictionary interface of stardict, support regular expression (regex) search and colored output.',
 
@@ -20,14 +20,14 @@ setup(
 
     keywords='dictionary, stardict, vocabulary builder, English, Chinese',
 
-    packages = ['py-sdvb'],
+    packages = ['pysdvb'],
 
     install_requires=['pystardict'],
 
     entry_points={
         'console_scripts': [
-            'pysdcv=py-sdvb.sdcv:translate_word',
-            'pysdvb=py-sdvb.sdvb:select_dictionary',
+            'pysdcv=pysdvb.sdcv:translate_word',
+            'pysdvb=pysdvb.sdvb:select_dictionary',
         ],
     },
 )
