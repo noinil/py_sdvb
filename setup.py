@@ -2,12 +2,12 @@ from setuptools import setup, find_packages
 
 setup(
     name='py-sdvb',
-    version='2.1',
+    version='2.2',
 
     description='Dictionary interface of stardict, support regular expression (regex) search and colored output.',
 
     url='https://github.com/noinil/py_sdvb',
-    download_url = 'https://github.com/noinil/py_sdvb/archive/v2.1.zip',
+    download_url = 'https://github.com/noinil/py_sdvb/archive/v2.2.zip',
 
     author='Cheng Tan',
     author_email='noinil@gmail.com',
