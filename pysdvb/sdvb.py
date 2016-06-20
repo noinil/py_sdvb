@@ -50,8 +50,6 @@ def translate_words_list(sel_dict):
             print(" Trying to use all the dictionaries!")
         print("------------------------------")
     
-    # ---------- Get a regex ----------
-    regex = input('REGEX: ')
 
     # ---------- output string format ----------
     indexword_out_str = '[0;32;1m{0}[0m'
@@ -69,34 +67,41 @@ def translate_words_list(sel_dict):
     jap_bug = re.compile('\$')
 
     # searching loop...
-    for i, d in enumerate(dictionaries):
-        search_reg = re.compile(regex)
-        dict_key_list = d.keys()
-        for dict_word in dict_key_list:
-            result = re.search(search_reg, dict_word)
-            if result:
-                translation = d[dict_word]
-                print('[0;30;1m--------------------------------------------------[0m')
-                print(dict_name_out_str.format(dict_book_names[i]))
-                print(indexword_out_str.format(dict_word))
-                for transline in translation.split('\n'):
-                    m_pos = re.match(pos_reg, transline)
-                    m_pos_cn = re.search(pos_cn_reg, transline)
-                    if m_pos:
-                        print(pos_out_str.format(transline[:m_pos.end()], transline[m_pos.end():]))
-                    elif m_pos_cn:
-                        print(pos_cn_out_str.format(transline[:m_pos_cn.end()], transline[m_pos_cn.end():]))
-                    elif re.match(phon_reg, transline):
-                        print(phon_out_str.format(transline))
-                    elif transline.startswith('词形') or transline.startswith('例句') or transline.startswith('相关'):
-                        print('[0;30;1m~~~~~~~~~~~~~~~~~~~~[0m')
-                        print(misc_out_str.format(transline))
-                    elif re.match(pinyin_bug, transline):
-                        pass
-                    elif jap_bug.match(transline):
-                        print('  ', transline[1:])
-                    else:
-                        print(' ', transline)
+    print('[0;30;1m==========================================================================================[0m')
+    while True:
+        try:
+            regex = input('REGEX: ')
+        except Exception:
+            return 0
+        for i, d in enumerate(dictionaries):
+            search_reg = re.compile(regex)
+            dict_key_list = d.keys()
+            for dict_word in dict_key_list:
+                result = re.search(search_reg, dict_word)
+                if result:
+                    translation = d[dict_word]
+                    print('[0;30;1m--------------------------------------------------[0m')
+                    print(dict_name_out_str.format(dict_book_names[i]))
+                    print(indexword_out_str.format(dict_word))
+                    for transline in translation.split('\n'):
+                        m_pos = re.match(pos_reg, transline)
+                        m_pos_cn = re.search(pos_cn_reg, transline)
+                        if m_pos:
+                            print(pos_out_str.format(transline[:m_pos.end()], transline[m_pos.end():]))
+                        elif m_pos_cn:
+                            print(pos_cn_out_str.format(transline[:m_pos_cn.end()], transline[m_pos_cn.end():]))
+                        elif re.match(phon_reg, transline):
+                            print(phon_out_str.format(transline))
+                        elif transline.startswith('词形') or transline.startswith('例句') or transline.startswith('相关'):
+                            print('[0;30;1m~~~~~~~~~~~~~~~~~~~~[0m')
+                            print(misc_out_str.format(transline))
+                        elif re.match(pinyin_bug, transline):
+                            pass
+                        elif jap_bug.match(transline):
+                            print('  ', transline[1:])
+                        else:
+                            print(' ', transline)
+        print('[0;30;1m==========================================================================================[0m \n')
 
 def select_dictionary():
     sdo = 0
