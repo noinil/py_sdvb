@@ -63,7 +63,7 @@ def translate_words_list(sel_dict):
     pos_reg = re.compile('(a|v|n|ad|adj|adv|vt|vi)\.')
     pos_cn_reg = re.compile('【.*】')
     phon_reg = re.compile('\*?\[.*\]')
-    pinyin_bug = re.compile('([a-z]\?.*){2,}')
+    pinyin_bug = re.compile('([a-z]*\?.*){2,}')
     jap_bug = re.compile('\$')
 
     # searching loop...
