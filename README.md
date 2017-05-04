@@ -2,10 +2,9 @@
 
 ## Description
 
-- Vocabulary builder by generating word lists from stardict dictionaries.  Allow
-  **regular expression** search.  Written in python.
-- Command-line dictionary searching tool with colored output.
-
+- Vocabulary builder by generating interesting word lists from stardict
+  dictionaries.  Allowing **regular expression** search.  Written in python.
+- Command-line dictionary with colored output.
 
 ## Features
 
@@ -82,7 +81,7 @@ pysdcv
 
 ### Manually add to `$PATH`
 
-If not using `pip` to install, probably you need these commands: 
+If py_sdvb is not installed with `pip`, probably you need to run these commands: 
 
 ```bash
 ln -s /path/to/py_sdvb/pysdvb/sdvb.py /usr/local/bin/pysdvb
